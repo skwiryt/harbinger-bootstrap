@@ -1,0 +1,135 @@
+body * {
+  font-family: "Open Sans", sans-serif;
+}
+
+.text-dark, .card {
+  color: #555555;
+}
+
+.carousel-caption .text-exclamation {
+  font-family: "Playfair Display", serif;
+  font-size: 74px;
+  margin-bottom: 30px;
+}
+
+.carousel-inner, .carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  bottom: auto;
+  width: 70%;
+  padding-bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body .text-exclamation {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.redirections .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.invitation {
+  background: #eff2f5;
+}
+
+.invitation form p {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.invitation form input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dddddd;
+  padding: 5px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+}
+
+::placeholder {
+  font-size: 14px;
+}
+
+.invit-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.invit-box ul li {
+  display: inline-block;
+}
+
+.invit-box ul li a {
+  color: black;
+  font-size: 16px;
+}
+
+footer {
+  background: #D0DBE1;
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .products .list-group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .products .list-group-item:first-child {
+    border-bottom-left-radius: .25rem;
+    border-top-right-radius: 0;
+  }
+  .products .list-group-item + .list-group-item {
+    border-top-width: 1px;
+    border-left-width: 0;
+  }
+  .product .list-group-item:last-child {
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
